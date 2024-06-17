@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Rowdies", Roboto, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
 }
 
@@ -44,15 +44,22 @@ a {
   font-size: 1.25rem;
   color: white;
   padding-top: 25px;
+  text-decoration: none;
 }
 
-.nav-links i {
+.nav-links div,
+a i {
   margin-right: 5px;
+}
+
+.nav-links div,
+a:hover {
+  color: rgba(181, 65, 226, 255);
 }
 
 .home {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 10fr 8fr;
   justify-content: space-between;
   max-width: 1080px;
   margin: auto;
@@ -61,7 +68,7 @@ a {
 }
 
 .home-about-text {
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 1.75;
 }
 
@@ -69,8 +76,14 @@ a {
   font-family: "Rowdies", Roboto, sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: rgba(181,65,226,255);
-  font-size: 2rem;
+  color: rgba(181, 65, 226, 255);
+  font-size: 2.5rem;
+}
+
+.roles {
+  color: rgba(181, 65, 226, 255);
+  font-family: "Rowdies", Roboto, sans-serif;
+  font-weight: bold;
 }
 
 .about-img {
