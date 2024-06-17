@@ -2,4 +2,78 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Rowdies", Roboto, sans-serif;
+  font-weight: 400;
+}
+
+.bg-img {
+  background-image: url(img/night-stars-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  margin: auto;
+}
+
+.bg-blur {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+  max-height: 100px;
+}
+
+.nav {
+  display: flex;
+  max-width: 1080px;
+  margin: auto;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links div,
+a {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.25rem;
+  color: white;
+  padding-top: 25px;
+}
+
+.nav-links i {
+  margin-right: 5px;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  max-width: 1080px;
+  margin: auto;
+  height: 80vh;
+  align-items: center;
+}
+
+.home-about-text {
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
+.name {
+  font-family: "Rowdies", Roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgba(181,65,226,255);
+  font-size: 2rem;
+}
+
+.about-img {
+  width: 100%;
+  opacity: 10pc;
 }
